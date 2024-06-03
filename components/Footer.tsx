@@ -16,10 +16,10 @@ export default function Footer() {
         <span className="tracking-tight">
           made by{" "}
           <Link
-            href="https://github.com/dinogomez"
+            href="https://github.com/NextThread"
             className="font-bold hover:underline hover:underline-offset-2 hover:bg-yellow-200 bg-yellow-300 px-1 text-black"
           >
-            @dinogomez
+            @NextThread
           </Link>{" "}
         </span>
       </div>

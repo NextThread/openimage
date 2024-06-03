@@ -16,9 +16,9 @@ export default function AboutCard() {
           />
         </div>
         <div className="mt-2">
-          <Link href="https://github.com/dinogomez" target="_blank">
+          <Link href="https://github.com/NextThread" target="_blank">
           <h2 className="text-3xl font-semibold text-gray-800 tracking-wide decoration-slice underline underline-offset-4 decoration-green-500">
-            @dinogomez
+            @NextThread
           </h2>
           </Link>
           <p className="mt-2 text-sm text-gray-500">
@@ -28,13 +28,13 @@ export default function AboutCard() {
               all free of ads
             </span>
             . You can explore my work on GitHub. If you find my works and
-            projects valuable, consider giving this <Link href="https://github.com/dinogomez/openimage"><span className="font-bold text-gray-800 tracking-wide decoration-wavy underline underline-offset-4 decoration-green-500">repository</span></Link> a star ⭐. 
+            projects valuable, consider giving this <Link href="https://github.com/NextThread/openimage"><span className="font-bold text-gray-800 tracking-wide decoration-wavy underline underline-offset-4 decoration-green-500">repository</span></Link> a star ⭐. 
           </p>
         </div>
         <div className="mt-4 flex text-sm justify-end">
           <Link
             className="mx-2 bg-black text-white px-1 hover:underline "
-            href="https://github.com/dinogomez"
+            href="https://github.com/NextThread"
           >
             <h1>github</h1>
           </Link>
