@@ -51,10 +51,10 @@ export default function StatisticUpdate({
 
   return (
     <h1 className="text-gray-500 text-xs ">
-      {stat.imgconverted.toLocaleString()} imgs converted, compressed{" "}
-      {formatBytes(stat.totalsize)} of data into{" "}
-      {formatBytes(stat.totalsizeconverted)} globally, saved{" "}
-      {percentageReduction(stat.totalsize, stat.totalsizeconverted).toFixed(2)}%
+      {stat?.imgconverted?.toLocaleString() ?? '0'} imgs converted, compressed
+      {formatBytes(stat?.totalsize ?? 0)} of data into{" "}
+      {formatBytes(stat?.totalsizeconverted ?? 0)} globally, saved{" "}
+      {percentageReduction(stat?.totalsize ?? 0, stat?.totalsizeconverted ?? 0).toFixed(2)}%
       <span className="animate-pulse">🌎</span>
     </h1>
   );
